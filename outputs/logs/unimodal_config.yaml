@@ -1,0 +1,65 @@
+experiment_name: unimodal
+paths:
+  data_dir: data
+  images_dir: CDIs_images_nifti
+  metadata_file: metadata.csv
+  slice_cache_dir: outputs/slices
+  output_dir: outputs
+  checkpoint_dir: checkpoints
+  figure_dir: outputs/figures
+  shap_dir: outputs/shap
+  log_dir: outputs/logs
+  feature_cache_dir: outputs/feature_cache
+  comparison_dir: outputs/comparison
+data:
+  label_column: pCR
+  clinical_feature_columns: []
+  exclude_columns:
+  - SBR grade
+  patient_id_column: patient_id
+  train_ratio: 0.7
+  val_ratio: 0.15
+  n_slices_per_volume: 1
+  slice_axis: 2
+  development_mode: false
+  max_patients: 20
+image:
+  size: 224
+  mean:
+  - 0.485
+  - 0.456
+  - 0.406
+  std:
+  - 0.229
+  - 0.224
+  - 0.225
+  backbone: resnet50
+  weights: IMAGENET1K_V1
+  freeze_backbone: true
+  image_embedding_dim: 512
+  cache_features: true
+  fine_tune_last_blocks: false
+clinical:
+  impute_strategy: median
+  standardize: true
+  categorical_columns: []
+model:
+  dropout: 0.3
+  clinical_embedding_dim: 32
+  fusion_hidden:
+  - 128
+  n_classes: 2
+training:
+  optimizer: adamw
+  lr: 0.0001
+  weight_decay: 0.0001
+  epochs: 30
+  batch_size: 8
+  scheduler: cosine
+  early_stopping_patience: 8
+  num_workers: 0
+  class_weight: balanced
+  label_smoothing: 0.0
+  seed: 42
+  device: auto
+  grad_clip: 1.0

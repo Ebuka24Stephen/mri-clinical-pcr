@@ -1,0 +1,10 @@
+2026-08-06 12:22:32 | INFO    | evaluation.report | Saved 4 training-curve figures to /home/akube/MySeminar/project/outputs/figures
+2026-08-06 12:22:41 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 12:22:42 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 12:22:42 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 12:22:42 | INFO    | __main__ | Wrote report to /home/akube/MySeminar/project/outputs/final_results.md
+2026-08-06 12:25:06 | INFO    | evaluation.report | Saved 4 training-curve figures to /home/akube/MySeminar/project/outputs/figures
+2026-08-06 12:25:08 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 12:25:09 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 12:25:09 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 12:25:09 | INFO    | __main__ | Wrote report to /home/akube/MySeminar/project/outputs/final_results.md

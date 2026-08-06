@@ -1,0 +1,6 @@
+2026-08-06 11:35:32 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 11:35:32 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 11:35:32 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 11:35:33 | INFO    | datasets.preprocess | TabularPreprocessor fit: 3 numeric, 3 categorical -> 17 features
+2026-08-06 11:35:35 | INFO    | models.image_encoder | ImageEncoder(resnet50) built: out_dim=512, freeze=True
+2026-08-06 11:35:35 | INFO    | models.multimodal | MultimodalModel built: image_dim=512 clinical_dim=17 head_in=544 classes=2

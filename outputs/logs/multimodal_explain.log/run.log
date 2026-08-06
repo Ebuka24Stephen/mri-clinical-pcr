@@ -1,0 +1,38 @@
+2026-08-06 11:30:43 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 11:30:43 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 11:30:43 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 11:30:43 | INFO    | datasets.preprocess | TabularPreprocessor fit: 3 numeric, 3 categorical -> 17 features
+2026-08-06 11:30:49 | INFO    | models.image_encoder | ImageEncoder(resnet50) built: out_dim=512, freeze=True
+2026-08-06 11:30:49 | INFO    | models.multimodal | MultimodalModel built: image_dim=512 clinical_dim=17 head_in=544 classes=2
+2026-08-06 11:30:51 | INFO    | __main__ | Loaded model multimodal from checkpoints/multimodal/best_model.pt
+2026-08-06 11:30:56 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample0_pCR.png
+2026-08-06 11:30:58 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample1_no pCR.png
+2026-08-06 11:30:59 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample2_pCR.png
+2026-08-06 11:31:01 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample3_no pCR.png
+2026-08-06 11:31:02 | INFO    | explainability.shap_explain | Computing SHAP values over 100 rows...
+2026-08-06 11:32:08 | INFO    | explainability.shap_explain | Saved 3 SHAP figures to outputs/shap
+2026-08-06 12:14:18 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 12:14:19 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 12:14:19 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 12:14:19 | INFO    | datasets.preprocess | TabularPreprocessor fit: 3 numeric, 3 categorical -> 17 features
+2026-08-06 12:14:21 | INFO    | models.image_encoder | ImageEncoder(resnet50) built: out_dim=512, freeze=True
+2026-08-06 12:14:21 | INFO    | models.multimodal | MultimodalModel built: image_dim=512 clinical_dim=17 head_in=544 classes=2
+2026-08-06 12:14:27 | INFO    | __main__ | Loaded model multimodal from checkpoints/multimodal/best_model.pt
+2026-08-06 12:14:33 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample0_pCR.png
+2026-08-06 12:14:35 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample1_no pCR.png
+2026-08-06 12:14:37 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample2_pCR.png
+2026-08-06 12:14:39 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample3_no pCR.png
+2026-08-06 12:14:40 | INFO    | explainability.shap_explain | Computing SHAP values over 100 rows...
+2026-08-06 12:16:45 | INFO    | datasets.loader | Found 253 NIfTI volumes and 253 metadata rows.
+2026-08-06 12:16:46 | INFO    | datasets.loader | Built manifest: 253 images across 253 patients.
+2026-08-06 12:16:46 | INFO    | datasets.split | Split: 177 train / 38 val / 38 test patients (177 / 38 / 38 images)
+2026-08-06 12:16:46 | INFO    | datasets.preprocess | TabularPreprocessor fit: 3 numeric, 3 categorical -> 17 features
+2026-08-06 12:16:48 | INFO    | models.image_encoder | ImageEncoder(resnet50) built: out_dim=512, freeze=True
+2026-08-06 12:16:48 | INFO    | models.multimodal | MultimodalModel built: image_dim=512 clinical_dim=17 head_in=544 classes=2
+2026-08-06 12:16:48 | INFO    | __main__ | Loaded model multimodal from checkpoints/multimodal/best_model.pt
+2026-08-06 12:16:52 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample0_pCR.png
+2026-08-06 12:16:58 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample1_no pCR.png
+2026-08-06 12:17:00 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample2_pCR.png
+2026-08-06 12:17:01 | INFO    | explainability.gradcam | Saved Grad-CAM overlay to outputs/figures/gradcam/multimodal_sample3_no pCR.png
+2026-08-06 12:17:02 | INFO    | explainability.shap_explain | Computing SHAP values over 100 rows...
+2026-08-06 12:18:52 | INFO    | explainability.shap_explain | Saved 4 SHAP figures to outputs/shap

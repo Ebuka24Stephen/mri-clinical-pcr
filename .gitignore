@@ -1,0 +1,15 @@
+# Large data — not committed
+data/
+
+# Regenerable training artifacts (large binaries)
+checkpoints/
+outputs/checkpoints/
+outputs/feature_cache/
+outputs/slices/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
