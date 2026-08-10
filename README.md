@@ -60,6 +60,30 @@ The clinical feature columns are configured in `configs/multimodal.yaml`
 (`age`, `race`, `lesion type`, `HR/HER2`, `MRLD`, `analysis cohort`). `SBR
 grade` is excluded by design.
 
+### Citation
+
+The dataset is the **Cancer-Net BCa** benchmark, derived from pre-treatment
+CDIs acquisitions of the ACRIN 6698/I-SPY2 cohort. Please cite the dataset
+benchmark paper (recommended descriptive reference), the Cancer-Net BCa pCR
+paper, and the upstream TCIA source data:
+
+> Tai, C.-E. A., Gunraj, H., Wong, A. A Multi-Institutional Open-Source
+> Benchmark Dataset for Breast Cancer Clinical Decision Support using Synthetic
+> Correlated Diffusion Imaging Data. *CVPR Women in Computer Vision (WiCV)
+> Workshop*, 2023. <https://arxiv.org/abs/2304.05623>
+
+> Tai, C.-E. A., Hodzic, N., Flanagan, N., Gunraj, H., Wong, A. Cancer-Net BCa:
+> Breast Cancer Pathologic Complete Response Prediction using Volumetric Deep
+> Radiomic Features from Synthetic Correlated Diffusion Imaging. *NeurIPS
+> Medical Imaging Meets NeurIPS (MED-NeurIPS) Workshop*, 2022.
+> <https://arxiv.org/abs/2211.05308>
+
+> Newitt, D. C., Partridge, S. C., Chenevert, T., Zhang, Z., Gibbs, J., Rosen,
+> M., Bolan, P., Marques, H., et al. ACRIN 6698/I-SPY2 Breast DWI [data set].
+> *The Cancer Imaging Archive*, 2021. <https://doi.org/10.7937/TCIA.KK02-6D95>
+
+The dataset is released under a CC BY-NC-SA 4.0 license.
+
 ---
 
 ## Project layout
